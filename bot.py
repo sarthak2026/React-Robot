@@ -11,7 +11,7 @@ dp = Dispatcher()
 
 # --- Channels IDs/Usernames for forced join ---
 CHANNEL_1 = "@FREETELEGRAM_MEMBERBOT"      # Update Channel
-CHANNEL_2 = "@FREE_MEMBERSADD_BOT"          # Forced Subscription Channel
+CHANNEL_2 = "@FREE_MEMBER_ADD_BOT"          # Forced Subscription Channel
 
 # Dictionary to save user reaction preferences {user_id: emoji}
 user_reactions = {}
@@ -186,3 +186,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
